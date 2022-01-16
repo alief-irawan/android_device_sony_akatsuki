@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2018-2020 The havocOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,10 +7,10 @@
 # Inherit from akatsuki device
 $(call inherit-product, device/sony/akatsuki/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_akatsuki
+PRODUCT_NAME := havoc_akatsuki
 PRODUCT_DEVICE := akatsuki
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony

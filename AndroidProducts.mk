@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The havocOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_akatsuki.mk
+    $(LOCAL_DIR)/havoc_akatsuki.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_akatsuki-user \
-    lineage_akatsuki-userdebug \
-    lineage_akatsuki-eng
+    havoc_akatsuki-user \
+    havoc_akatsuki-userdebug \
+    havoc_akatsuki-eng
